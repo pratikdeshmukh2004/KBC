@@ -1,5 +1,7 @@
 import pyttsx3
+# for installing pyttsx3 run command "pip3/pip install pyttsx3"
 engine = pyttsx3.init()
+# if error will come then run command " sudo apt-get install espeak"
 engine.setProperty("volume",2.0)
 engine.setProperty("rate",150)
 print ("-------------Welcome to the KBC---------")
